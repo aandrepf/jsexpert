@@ -1,0 +1,23 @@
+[
+    {
+        "id": "e210172a-68b5-454e-8220-aaff1b3fef8a",
+        "name": "Durango",
+        "releaseYear": 2022,
+        "available": true,
+        "gasAvailable": true
+    },
+    {
+        "id": "c75e34cb-d38d-4c7c-b61b-39227d93b784",
+        "name": "Accord",
+        "releaseYear": 2022,
+        "available": true,
+        "gasAvailable": true
+    },
+    {
+        "id": "23dd45e9-200a-4107-bf82-75dc3db850ae",
+        "name": "Golf",
+        "releaseYear": 2022,
+        "available": true,
+        "gasAvailable": true
+    }
+]

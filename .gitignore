@@ -4,3 +4,4 @@ coverage/
 
 ## FILES
 .DS_Store
+*-lock.json

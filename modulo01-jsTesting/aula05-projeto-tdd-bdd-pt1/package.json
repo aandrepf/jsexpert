@@ -1,0 +1,20 @@
+{
+  "name": "aula05-projeto-tdd-bdd-pt1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "seed": "node ./seed"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/faker": "^5.1.0",
+    "faker": "^5.1.0"
+  }
+}

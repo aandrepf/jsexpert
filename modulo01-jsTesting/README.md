@@ -56,6 +56,24 @@ O **Behaviour Driven Development** é um conjunto de praticas que deveria ser us
 
 ## Projeto TDD & BDD - Parte 1
 
-O projeto se trata de um processo de aluguel de carro com backend envolvido, padrão repo, camadas como service, camadas de apresentação onde roda o BDD e o TDD validando toda aplicação nos testes. Ainda iremos usar um gerador de massa de dados segundo o padrão _cinder_.
+O projeto se trata de um processo de aluguel de carro com backend envolvido, padrão repo, camadas como service, camadas de apresentação onde roda o BDD e o TDD validando toda aplicação nos testes. Ainda iremos usar um gerador de massa de dados segundo o padrão _seed_.
 
-Usaremos a lib **faker@5.1.0** para simular banco de dados
+Usaremos a lib **faker@5.1.0** para simular banco de dados e gerar dados randomicos de forma inteligente
+
+```js
+// Exemplo do uso do faker
+const carCategory = new CarCategory({
+  id: faker.random.uuid(),
+  name: faker.vehicle.type(),
+  carIds: [],
+  price: faker.finance.amount(20, 100),
+});
+```
+
+## Pojeto TDD & BDD - Parte 2
+
+Nessa parte do projeto criamos as layers geramos base de dados atraves de arquivos usando um repositório genérico e trabalhamos com **mocha@8**, **chai@4**, **nyc@15** e **sinon@9** simultaneamente
+
+Criamos uma cópia da parte 1 do projeto e usamos o _npm ci_ para instalar as dependencias sem problema de versão e de forma automática
+
+Primeiramente devemos criar as layers que usaremos antes de qualquer codificação para evitar redundancias

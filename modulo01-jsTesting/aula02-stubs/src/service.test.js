@@ -19,12 +19,14 @@ const mocks = {
   */
 
   const service = new Service();
+
+  // * 1 - AQUI o stub pega o comportamento do metodo makeRequest
   const stub = sinon.stub(service, "makeRequest");
 
-  // STUB para URL1 TAOOINE
+  // * 2 - STUB passa o BASE_URL para o parametro de makeRequest para URL1 TAOOINE
   stub.withArgs(BASE_URL1).resolves(mocks.tatooine);
 
-  // STUB para URL2 ALDERAAN
+  // * 3 - STUB passa o BASE_URL para o parametro de makeRequest para URL2 ALDERAAN
   stub.withArgs(BASE_URL2).resolves(mocks.alderaan);
 
   {

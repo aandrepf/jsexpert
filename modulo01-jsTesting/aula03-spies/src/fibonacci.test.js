@@ -25,6 +25,8 @@ const assert = require("assert");
 
   {
     const fibonacci = new Fibonacci();
+
+    // * A partir daqui o sinon passa a observar o metodo execute e analizar quantas vezes o mesmo foi chamado
     const spy = sinon.spy(fibonacci, "execute");
 
     // * Usando REST/SPREAD

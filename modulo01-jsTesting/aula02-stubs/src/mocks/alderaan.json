@@ -1,0 +1,23 @@
+{
+    "message": "ok",
+    "result": {
+        "properties": {
+            "diameter": "12500",
+            "rotation_period": "24",
+            "orbital_period": "364",
+            "gravity": "1 standard",
+            "population": "2000000000",
+            "climate": "temperate",
+            "terrain": "grasslands, mountains",
+            "surface_water": "40",
+            "created": "2022-12-03T02:46:58.388Z",
+            "edited": "2022-12-03T02:46:58.388Z",
+            "name": "Alderaan",
+            "url": "https://www.swapi.tech/api/planets/2"
+        },
+        "description": "A planet.",
+        "_id": "5f7254c11b7dfa00041c6faf",
+        "uid": "2",
+        "__v": 0
+    }
+}

@@ -70,10 +70,18 @@ const carCategory = new CarCategory({
 });
 ```
 
-## Pojeto TDD & BDD - Parte 2
+## Projeto TDD & BDD - Parte 2
 
 Nessa parte do projeto criamos as layers geramos base de dados atraves de arquivos usando um repositório genérico e trabalhamos com **mocha@8**, **chai@4**, **nyc@15** e **sinon@9** simultaneamente
 
 Criamos uma cópia da parte 1 do projeto e usamos o _npm ci_ para instalar as dependencias sem problema de versão e de forma automática
 
 Primeiramente devemos criar as layers que usaremos antes de qualquer codificação para evitar redundancias
+
+## Projeto TDD & BDD - Parte 3
+
+Modificar o sistemas de datas via javascript para interceptar via sinon, impedindo que datas sejam criadas de formas inesperadas.
+
+Finalização do projeto de aluguel de carros vendo os 2 ultimos cases da Story e verificar a cobertura de código
+
+Excluimos o baseRepository no code coverage, pois ele é uma classe estatica que não é usada diretamente na implementação dos testes. La no nycrc em excludes adicionamos o caminho para os respository

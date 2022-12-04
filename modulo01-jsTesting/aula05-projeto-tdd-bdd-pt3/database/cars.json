@@ -1,0 +1,23 @@
+[
+    {
+        "id": "2782018f-aa43-4184-97e1-ec9276acf8db",
+        "name": "Model T",
+        "releaseYear": 2022,
+        "available": true,
+        "gasAvailable": true
+    },
+    {
+        "id": "1888fd23-98b9-4f11-a940-dcc7c0eb0cb3",
+        "name": "Expedition",
+        "releaseYear": 2022,
+        "available": true,
+        "gasAvailable": true
+    },
+    {
+        "id": "17f5e272-cec5-4ee0-9ae6-e361201953dd",
+        "name": "F-150",
+        "releaseYear": 2022,
+        "available": true,
+        "gasAvailable": true
+    }
+]

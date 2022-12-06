@@ -90,6 +90,6 @@ URLs Úteis ao desafio:
   - [x] Deve ter cobertura de testes end-2-end e unitários
   - [x] 100% de code coverage
 
-- Coverage
+- Coverage Result
 
-![image](https://raw.githubusercontent.com/aandrepf/jsexpert/main/tinderapp.png)
+![image](https://raw.githubusercontent.com/aandrepf/jsexpert/main/modulo01-jsTesting/desafio-pokeapi/coverage.png)

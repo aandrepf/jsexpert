@@ -7,8 +7,5 @@
     "reporter": [
         "html",
         "text"
-    ],
-    "exclude": [
-        "src/reposotory/base/*.js"
     ]
 }
